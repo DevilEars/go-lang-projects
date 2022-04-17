@@ -3,6 +3,11 @@ This example is taken from [Learn Go Programming by Building 11 projects](https:
 
 There's a similar [example that uses SQLite from Pluralsight](https://pluralsight.hashnode.dev/how-to-build-a-web-app-with-go-and-sqlite).
 
+## Overview
+- This introduces the [gorm package](https://pkg.go.dev/gorm.io/gorm#section-readme)
+- The project structure is Model-View-Controller for the most part, minus the View
+- The database part is very bare bones as I don't care much for that here, I just want to familiarize myself with golang ways of doing things
+
 ## Notes
 - This project structure is less confusing than the other projects in the series
 - Seems like there are other dialects for the Gorm package, if MySQL is not your first choice
